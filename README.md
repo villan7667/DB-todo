@@ -1,49 +1,65 @@
 <!-- ©️ villan@7667 -->
 
-# ✅ Todo List Application
+# ✅ Task Master — Modern Todo List Application
 
-A modern, fully-featured Todo List app built using **Node.js**, **Express**, **EJS**, and **MongoDB Atlas**. This app lets you manage your daily tasks efficiently with priority levels, real-time alerts, and a smooth UI.
+A beautiful, feature-rich Todo List web app built with **Node.js**, **Express.js**, **EJS**, and **MongoDB Atlas**. Organize your tasks with priority levels, edit and delete in real-time, and enjoy a polished, animated UI experience.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-Node.js-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Deploy-Render-blue?style=for-the-badge" />
+</p>
 
 ---
 
 ## 🌟 Features
 
-- ✍️ **Add, edit, and delete tasks**
-- 🚦 **Set task priorities**: Urgent, High, Low
-- 💡 **Form validation** with alert messages
-- 📱 **Responsive design** with stylish CSS
-- 🧠 **Dynamic UI updates** using EJS
-- 🗄️ **MongoDB Atlas integration** for persistent storage
-- 🔐 **Secure POST-Redirect-GET pattern** to avoid duplicate submissions
+- ✍️ **Add, Edit, Delete Tasks** easily with live UI updates
+- 🚦 **Priority Tags:** Urgent 🔴 | High 🟠 | Low 🟢
+- 📋 **Completed Tasks Tracker**
+- 🧠 **Optimistic UI + AJAX Toggle** for checkbox status
+- 🔔 **Auto-dismissing Alert Messages**
+- ✅ **Form Validation** to prevent empty tasks
+- 🎨 **Responsive and Clean UI** with CSS3 and animation
+- ☁️ **MongoDB Atlas Integration** for cloud-based persistence
+- 🔐 **Secure Routing** with POST-Redirect-GET pattern
+- 🚀 **Deployed on Render** — ready to use instantly!
 
 ---
 
 ## 🔗 Live Demo
 
-👉 [Click here to open the deployed app](https://your-render-deployment-url.onrender.com)
+<div align="center">
+  <a href="https://db-todo-9x4n.onrender.com/" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20Live%20Now%20-%20Click%20to%20Open-6366f1?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
+</div>
 
 ---
 
-## 🖼️ Screenshot
+## 📸 Preview Screenshot
 
-![Todo List Screenshot](https://github.com/user-attachments/assets/290ab0d4-a116-439d-a8ec-a87ee66541c6)
+![Todo List Screenshot](https://github.com/user-attachments/assets/8ae3682f-32d9-4cbd-8c19-2eac81af6ad0)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Node.js, Express.js
-- **Frontend:** EJS Templates, Vanilla JS, CSS3
-- **Database:** MongoDB Atlas
-- **Deployment:** Render
+| Category    | Tech Used                        |
+|-------------|----------------------------------|
+| 🧠 Backend   | Node.js, Express.js              |
+| 🎨 Frontend  | EJS, Vanilla JavaScript, CSS3    |
+| 📦 Database  | MongoDB Atlas (Mongoose ORM)     |
+| 🚀 Hosting   | [Render](https://render.com)     |
+| 📁 Templating | EJS + Dynamic rendering         |
 
 ---
 
-## 📦 Installation
+## 🚀 Installation & Setup
 
-### Step-by-step Guide
+Clone the repository and install dependencies:
 
-1. **Clone this repo:**
-   ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
-   cd todo-list-app
+```bash
+git clone https://github.com/yourusername/todo-list-app.git
+cd todo-list-app
+npm install
